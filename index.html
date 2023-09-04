@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Assigmnet (Prompt QnA)</h1>
+    <div id="window"></div>
+
+
+
+    <script>
+        alert("Give your answers in numbers");
+        var QnA_1 = +prompt("Full form of JS \n1: JavaScript 2: Jetsky 3: JavaSip 4: JaySetner\n");
+        var QnA_2 = +prompt("CSS stands for ______? \n1: logic 2: gaming 3: styling 4: scripting\n");
+        var QnA_3 = +prompt("<b> tag is used for block level elements. \n1: false 2: true\n");
+        var QnA_4 = +prompt("How many loops are there in JavaScript? \n1: 18 2: 20 3: 2 4: 16/4\n");
+
+        // Initialize the mark variable
+        var mark = 0;
+
+        if (QnA_1 === 1) {
+            mark++;
+        }
+
+        if (QnA_2 === 3) {
+            mark++;
+        }
+
+        if (QnA_3 === 1) {
+            mark++;
+        }
+
+        if (QnA_4 === 4) {
+            mark++;
+        }
+
+        console.log("Your total marks are: " + mark);
+        document.write("Your total marks are: " + mark);
+
+
+    </script>
+</body>
+
+</html>
